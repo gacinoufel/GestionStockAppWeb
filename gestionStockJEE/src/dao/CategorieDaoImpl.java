@@ -7,8 +7,8 @@ import metier.entities.Categorie;
 import util.JPAutil;
 
 public class CategorieDaoImpl implements ICategorieDao {
- // TP6_JEE à replacer par votre persistence unit, consultez votre
-//fichier persistence.xml <persistence-unit name="TP6_JEE">
+ // TP6_JEE Ã  replacer par votre persistence unit, consultez votre
+//fichier persistence.xml <persistence-unit name="_JEE">
 	private EntityManager entityManager=JPAutil.getEntityManager("TP5_JEE_demo");
 
 	@Override
